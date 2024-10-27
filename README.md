@@ -36,7 +36,7 @@ The app is a basic multi-user chat. Walkthrough of the source code:
 - [app/(splash)/page.tsx](<./app/(splash)/page.tsx>) is the splash page (doesn't require sign-in)
 - [app/product/layout.tsx](./app/product/layout.tsx) is the "product" layout for the [product page](./app/product/page.tsx) (requires sign-in)
 - [app/signin/page.tsx](./app/signin/page.tsx) is the sign-in page
-- [app/product/Chat/Chat.tsx](./app/product/Chat/Chat.tsx) is the chat frontend
+- [app/product/(components)/Chat.tsx](./app/product/(components)/Chat.tsx) is the chat frontend
 
 ## Configuring other authentication methods
 

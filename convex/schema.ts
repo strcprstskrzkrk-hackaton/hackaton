@@ -10,4 +10,10 @@ export default defineSchema({
     userId: v.id("users"),
     body: v.string(),
   }),
+  medicalRecords: defineTable({
+    userId: v.id("users"),
+    bloodType: v.string(),
+    height: v.number(),
+    weight: v.number(),
+  }),
 });
